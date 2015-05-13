@@ -1,1 +1,1 @@
-### This is a demo for Rails + HyperAdmin clientside validations
+### This is a demo for Rails + HyperAdmin client-side validations

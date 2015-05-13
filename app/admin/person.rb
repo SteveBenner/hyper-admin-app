@@ -18,6 +18,5 @@ HyperAdmin.register Person do
     field :birthday
     field :email, type: :email
     field :url, type: :url
-
   end
 end

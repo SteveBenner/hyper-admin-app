@@ -1,6 +1,6 @@
 class Article < ActiveRecord::Base
 
-  validates :title, presence: true
+  validates :title, presence: {message: 'Must have a title.'}
 
   def to_s
     title
