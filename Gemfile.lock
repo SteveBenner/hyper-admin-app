@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/SteveBenner/hyper_admin.git
-  revision: c936b74c68c5d01d3eb6bc39e51b5cd8197fb5c4
-  branch: feature/clientside-validation
+  revision: 93dfc33466130a7715925e8c50ea79519d23c760
+  branch: feature/client-side-validations
   specs:
     hyper_admin (0.4.0)
       coffee-rails (~> 4.1)

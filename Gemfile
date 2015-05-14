@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'hyper_admin', github: 'SteveBenner/hyper_admin', branch: 'feature/clientside-validation'
+gem 'hyper_admin', github: 'SteveBenner/hyper_admin', branch: 'feature/client-side-validations'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
