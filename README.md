@@ -1,7 +1,22 @@
 ### This is a demo for the `feature/client-side-validations` branch of [HyperAdmin][1]
-Install necessary gems with 
+**Note:** It may be necessary to initialize the app by running the following from the parent directory:
+
+    rails new hyper-admin-app-demo -s
+
+Install necessary gems (skip this if you ran the previous command)
 
     bundle install
+
+Create the database
+
+    rake db:migrate
+
+Uncomment the following lines from `config/routes.rb` to enable HyperAdmin
+
+```ruby
+# HyperAdmin.routes self
+# mount HyperAdmin::Engine, at: '/admin'
+```
 
 Start the Rails server
 
